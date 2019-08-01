@@ -1,4 +1,5 @@
 package notify
+/*
 
 import (
 	"errors"
@@ -71,3 +72,4 @@ func (mailgunNotify MailgunNotify) SendErrorNotification(errorNotification Error
 
 	return nil
 }
+*/

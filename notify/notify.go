@@ -11,7 +11,7 @@ import (
 //Diffrent types of clients to deliver notifications
 type NotificationTypes struct {
 	MailNotify MailNotify      `json:"mail"`
-	Mailgun    MailgunNotify   `json:"mailGun"`
+	//Mailgun    MailgunNotify   `json:"mailGun"`
 	Slack      SlackNotify     `json:"slack"`
 	Http       HttpNotify      `json:"httpEndPoint"`
 	Dingding   DingdingNotify  `json:"dingding"`
